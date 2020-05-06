@@ -1,6 +1,6 @@
 ## CLI Edapi :computer:
 
-### CLI para criação de api em nodejs. O projeto será criado com a estrutura/configurações definidas no repositório <a href="https://github.com/edmarjunior/base-api">edmarjunior/base-api</a>
+### CLI para criação de api em nodejs. O projeto será criado com a estrutura/configurações definidas no repositório [edmarjunior/base-api](https://github.com/edmarjunior/base-api)
 
 ### Instalação
 Em breve no npm.
