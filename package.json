@@ -1,7 +1,7 @@
 {
   "name": "edapi",
   "version": "0.0.1",
-  "description": "CLI for generate node base API. API source code stored in https://github.com/edmarjunior/base-api",
+  "description": "CLI for generate node base API or node auth API, respectively stored in https://github.com/edmarjunior/base-api and https://github.com/edmarjunior/auth-api",
   "main": "index.js",
   "keywords": [],
   "author": "Edmar Costa",
