@@ -1,9 +1,14 @@
 {
   "name": "edapi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CLI for generate node base API or node auth API, respectively stored in https://github.com/edmarjunior/base-api and https://github.com/edmarjunior/auth-api",
+  "repository": "github:edmarjunior/edapi-cli",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "api",
+    "node"
+  ],
   "author": "Edmar Costa",
   "license": "MIT",
   "preferGlobal": true,
