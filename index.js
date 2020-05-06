@@ -5,19 +5,18 @@ var program = require('commander');
 var pkg = require('./package.json')
 var exec = require('child_process').exec;
 var path = require('path');
-var minimist = require('minimist');
 const chalk = require('chalk');
-
 
 program.version(pkg.version)
   .command('create <projectName>')
   .description('Create project for API with nodejsm, parameter required <projectName>, parameter optional [openVsCode] with value equal [code]')
+  .option('-a, --auth [auth]', 'Create project with Auth module')
   .option('-c, --code [code]', 'Open project with Visual Studio Code')
   .action(function createApi(projectName, options) {
 
-    // console.log(chalk.green('To-do adicionado com sucesso!'));
-    // console.log(chalk.red('Falha para adicionar'));
-    exec(`git clone https://github.com/edmarjunior/base-api.git ${projectName}`, function( err, stdout, stderr ) {
+    const repository = options.auth ? 'https://github.com/edmarjunior/auth-api.git' : 'https://github.com/edmarjunior/base-api.git';
+
+    exec(`git clone ${repository} ${projectName}`, function( err, stdout, stderr ) {
     
       console.log('creating projetc ...');
 
