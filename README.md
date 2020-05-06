@@ -3,7 +3,7 @@
 ### CLI for generate node base API or node auth API, respectively stored in [edmarjunior/base-api](https://github.com/edmarjunior/base-api) and [edmarjunior/auth-api](https://github.com/edmarjunior/auth-api)
 
 
-### installation
+### Installation
 Soon at npm.
 
 ### Utilization
@@ -13,7 +13,7 @@ To create an base API (without the authentication module) execute the command be
 ```
  $ edapi create {apiName}
 ```
-Arguments
+**Arguments**
  - '-a' or '--auth'. To create an auth-api (with the authentication module), just execute the same command above only by passing the argument '-a' or '--auth', according to any of the commands below:
  ```
   $ edapi create {apiName} -a
