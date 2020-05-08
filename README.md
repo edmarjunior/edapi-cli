@@ -4,7 +4,9 @@
 
 
 ### Installation
-Soon at npm.
+```
+ $ npm i -g edapi
+```
 
 ### Utilization
 Run the commands below to create a new project (a folder will be created in the directory that will execute the command)
