@@ -50,7 +50,7 @@ program.version(pkg.version)
        * executing too many commands
        * */
       const pathNewProject = path.resolve(__dirname, projectName);
-      const commands = `rm -r .git && git init${options.code ? ' && code .' : ''}`;
+      const commands = `rm -r .git && git init && git add . && git commit -m "Initialize project using Edapi Create"${options.code ? ' && code .' : ''}`;
 
       exec(commands, { cwd: pathNewProject }, function (err, stdout, stderr) {
         if(err) {
