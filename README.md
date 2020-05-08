@@ -9,7 +9,7 @@
 ```
 
 ### Utilization
-Run the commands below to create a new project (a folder will be created in the directory that will execute the command)
+Run the commands below **(in Git Bash)** to create a new project (a folder will be created in the directory that will execute the command)
 
 To create an base API (without the authentication module) execute the command below.
 ```
